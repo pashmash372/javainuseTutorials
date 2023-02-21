@@ -10,4 +10,9 @@ public class TestController {
     public ModelAndView firstPage() {
         return new ModelAndView("welcome");
     }
+
+    @RequestMapping("/hello")
+    public String firstPage1() {
+        return "hello";
+    }
 }

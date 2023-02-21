@@ -11,9 +11,11 @@
 	<groupId>com.example</groupId>
 	<artifactId>SpringBoot_HelloWorld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBoot_HelloWorld</name>
+    <packaging>pom</packaging>
+    <name>SpringBoot_HelloWorld</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
+
+    <properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
